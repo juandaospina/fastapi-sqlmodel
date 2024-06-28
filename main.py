@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 
-from app.student.router import router as student_router
+from app.students.router import router as student_router
 
 
 app = FastAPI(

@@ -7,7 +7,7 @@ from sqlalchemy import pool
 from alembic import context
 from dotenv import load_dotenv
 
-from app.student.models import Student
+from app.students.models import Student
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
