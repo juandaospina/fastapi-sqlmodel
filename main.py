@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 
 from app.students.router import router as student_router
+from app.courses.router import router as courses_route
 
 
 app = FastAPI(
@@ -16,3 +17,4 @@ def index():
 
 # Api routes
 app.include_router(student_router)
+app.include_router(courses_route)

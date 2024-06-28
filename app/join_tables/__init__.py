@@ -1,0 +1,3 @@
+"""
+Table join module initialization
+"""

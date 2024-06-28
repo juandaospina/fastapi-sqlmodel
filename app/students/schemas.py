@@ -1,5 +1,10 @@
-from sqlmodel import SQLModel, Field
+import typing as t
+
+from sqlmodel import SQLModel, Field, Relationship
 from pydantic import EmailStr
+
+from app.join_tables.models import StudentCourseJoin
+from app.courses.schemas import CoursePublic
 
 
 class StudentBase(SQLModel):
@@ -8,6 +13,7 @@ class StudentBase(SQLModel):
     nacionality: str | None = Field(default=None, max_length=64)
     age: int | None = Field(default=None, ge=18, lt=90)
     is_active: bool = True
+    courses: list[CoursePublic] | None = Field(default=None)
 
 
 class StudentUpdate(StudentBase):
