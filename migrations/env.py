@@ -8,6 +8,8 @@ from alembic import context
 from dotenv import load_dotenv
 
 from app.students.models import Student
+from app.courses.models import Course
+from app.join_tables.models import StudentCourseJoin
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -24,6 +26,8 @@ fileConfig(config.config_file_name)
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 target_metadata = Student.metadata
+target_metadata = Course.metadata
+target_metadata = StudentCourseJoin.metadata
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

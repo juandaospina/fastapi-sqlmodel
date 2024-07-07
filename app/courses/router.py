@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from sqlmodel import select, func
 
 from app.common.deps import DBDepends
-from .schemas import CoursePublic, CourseList
+from .schemas import CoursePublic, CourseList, CourseBase
 from .models import Course
 
 
@@ -24,7 +24,7 @@ def get_courses(db: DBDepends):
 
 
 @router.post("/", status_code=201, response_model=CoursePublic)
-def create_course(db: DBDepends, data: CoursePublic):
+def create_course(db: DBDepends, data: CourseBase):
     """
     Create a new course.
     """

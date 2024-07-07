@@ -13,6 +13,9 @@ class StudentBase(SQLModel):
     nacionality: str | None = Field(default=None, max_length=64)
     age: int | None = Field(default=None, ge=18, lt=90)
     is_active: bool = True
+
+
+class StudentCreate(StudentBase):
     courses: list[CoursePublic] | None = Field(default=None)
 
 
@@ -23,6 +26,7 @@ class StudentUpdate(StudentBase):
 
 class StudentPublic(StudentBase):
     id: int
+    courses: list[CoursePublic]
 
 
 class StudentList(SQLModel):
