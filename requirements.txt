@@ -1,0 +1,30 @@
+alembic @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/alembic_1707426251908/work
+annotated-types @ file:///C:/b/abs_0dmaoyhhj3/croot/annotated-types_1709542968311/work
+anyio @ file:///C:/b/abs_847uobe7ea/croot/anyio_1706220224037/work
+click @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/click_1699473800648/work
+colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1699472650914/work
+dnspython==2.6.1
+email_validator==2.2.0
+fastapi @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/fastapi_1707431081657/work
+greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
+h11 @ file:///C:/b/abs_1czwoyexjf/croot/h11_1706652332846/work
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+Mako @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/mako_1699481695868/work
+MarkupSafe @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/markupsafe_1707425732791/work
+psycopg==3.1.19
+psycopg-binary==3.1.19
+pydantic @ file:///C:/b/abs_f6ffn86wjx/croot/pydantic_1709578044014/work
+pydantic-settings @ file:///home/conda/feedstock_root/build_artifacts/pydantic-settings_1708377041016/work
+pydantic_core @ file:///C:/b/abs_05smrkbwjm/croot/pydantic-core_1709574000211/work
+python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
+python-dotenv @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/python-dotenv_1699475097728/work
+setuptools==69.5.1
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio @ file:///C:/b/abs_3akdewudo_/croot/sniffio_1705431337396/work
+SQLAlchemy @ file:///C:/b/abs_aa2izo0xio/croot/sqlalchemy_1718378184063/work
+sqlmodel @ file:///home/conda/feedstock_root/build_artifacts/sqlmodel_1717491865923/work
+starlette @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/starlette-recipe_1699544517909/work
+typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
+tzdata==2024.1
+uvicorn @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/uvicorn-split_1699568993341/work
+wheel==0.43.0
